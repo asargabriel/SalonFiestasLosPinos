@@ -1,0 +1,134 @@
+@charset "UTF-8";
+.navegador {
+  background-color: #0d0da1; }
+  .navegador .navbar-light .navbar-nav .nav-link {
+    color: white; }
+  .navegador ​
+.navbar .navbar-toggler {
+    color: white; }
+  .navegador__boton {
+    display: inline-block; }
+  .navegador__individual {
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 10px;
+    text-decoration: none;
+    box-shadow: black; }
+
+.tabla {
+  background-color: #246355;
+  border-bottom: solid 4px #0f362d;
+  color: white; }
+  .tabla__titulo {
+    color: burlywood; }
+  .tabla__unidad {
+    border: solid 1px white;
+    padding: 10px; }
+
+.imgGaleria {
+  width: 100%; }
+
+.piePagina {
+  text-align: right;
+  font-size: 12px;
+  height: 4rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: black;
+  color: blanchedalmond; }
+  .piePagina :hover {
+    font-size: 20px;
+    background-color: black;
+    height: 6rem;
+    width: 100%; }
+
+.resume {
+  background-color: lightseagreen;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  margin: 1em;
+  padding: 0.65em; }
+
+h3 {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 2em; }
+
+#botonReserva {
+  font-size: 1.25em;
+  margin: 10px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 4em;
+  box-shadow: 0px 3px 0px black; }
+  #botonReserva :hover {
+    font-size: large;
+    transition: all 1s;
+    background-color: #1b89d3;
+    color: white; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #19706c; }
+
+aside {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-right: 0px;
+  margin-left: 0px; }
+  aside :hover {
+    border: 1px solid #20aa20; }
+
+#contenedorDos {
+  display: grid;
+  grid-template-rows: 200px 400px;
+  margin: 0px;
+  border: 0px; }
+
+#contenedorCinco {
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 0px; }
+
+li:hover {
+  font-size: 20px;
+  animation-duration: 4s; }
+
+button:hover {
+  font-size: large;
+  transition: all 1s;
+  background-color: #1b89d3;
+  color: white; }
+
+#demo {
+  color: aquamarine;
+  display: inline-flex; }
+
+#sectionButton {
+  margin-left: 20px; }
+
+tr:nth-child(even) {
+  background-color: #3446ac; }
+
+tr:hover td {
+  background-color: #369681;
+  color: white; }
+
+th, td {
+  border: solid 1px black;
+  padding: 10px; }
+
+#Contenedor1 {
+  margin: 1em;
+  padding: 1.65em; }
+
+section {
+  margin-right: 0px;
+  margin-left: 0px; }

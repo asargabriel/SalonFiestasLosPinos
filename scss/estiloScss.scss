@@ -1,0 +1,211 @@
+@mixin size {
+width: auto;
+}
+@mixin name {
+    
+}
+
+$tipoLetraTitulo: font-family;
+$alineacionTexto: text-align;
+
+.navegador{
+
+    background-color: rgb(13, 13, 161);
+    $alineacionTexto: center;
+
+    .navbar-light .navbar-nav .nav-link {
+        color:white;
+    }
+    ​
+    .navbar .navbar-toggler{
+        color: white;
+    }
+
+    &__boton{
+        display: inline-block;
+    }
+
+    &__contenedor{
+        $tipoLetraTitulo: 'RocknRoll One', sans-serif;
+    }
+
+    &__individual{
+        display: inline-block;
+        font-size: 1.25em;
+        margin: 10px;
+        padding: 10px 0px;
+        text-align: center;
+        width: 10px;
+        text-decoration: none;
+        box-shadow: black;
+    }
+}
+
+.tabla{
+    background-color: #246355;
+    border-bottom: solid 4px #0f362d;
+    color: white;
+
+    &__titulo{
+        color:burlywood;
+    }
+
+    &__unidad{
+        border: solid 1px white;
+        padding: 10px;
+    }
+}
+
+.imgGaleria{
+    width: 100%;
+}
+.piePagina{
+    text-align: right;
+    font-size: 12px;
+    height: 4rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black;
+    color: blanchedalmond;
+
+    :hover{
+        font-size: 20px;
+        background-color: black;
+        height: 6rem;
+        width: 100%;
+    }
+}
+
+.resume{
+    background-color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin: 1em;
+    padding: 0.65em;
+
+    &__benef{}
+}
+
+h3{
+font-size: 30px;
+text-align: left;
+margin-left: 2em;
+}
+
+#botonReserva{
+    :hover{
+        font-size: large;
+        transition: all 1s;
+        background-color: rgb(27, 137, 211);
+        color:white;
+    }
+    font-size: 1.25em;
+    margin: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 4em;
+    box-shadow: 0px 3px 0px black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(25, 112, 108);
+}
+
+aside{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-right: 0px;
+    margin-left: 0px;
+
+    :hover{
+        border: 1px solid rgb(32, 170, 32);;
+    }
+}
+
+
+#contenedorUno{
+    $alineacionTexto: center;
+    $tipoLetraTitulo: 'RocknRoll One', sans-serif;
+}
+
+#contenedorDos{
+    display: grid;
+    grid-template-rows: 200px 400px;
+    margin: 0px;
+    border: 0px;
+}
+
+#contenedorCinco{
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 0px;
+}
+
+h1{$tipoLetraTitulo:'RocknRoll One', sans-serif;}
+
+h2{
+    $tipoLetraTitulo: 'RocknRoll One', sans-serif;
+    $alineacionTexto: center;
+}
+
+legend{ 
+    $tipoLetraTitulo: 'RocknRoll One', sans-serif;
+    $alineacionTexto: center;
+}
+
+li:hover{
+    font-size: 20px;
+    animation-duration: 4s;
+}
+
+button:hover{
+    font-size: large;
+    transition: all 1s;
+    background-color: rgb(27, 137, 211);
+    color:white;
+}
+
+p{
+    $tipoLetraTitulo: 'RocknRoll One', sans-serif;
+}
+
+#demo{
+    color: aquamarine;
+    display: inline-flex;
+}
+
+#sectionButton{
+    margin-left: 20px;
+}
+
+
+tr:nth-child(even){
+    background-color: rgb(52, 70, 172);
+}
+
+tr:hover td{
+    background-color: #369681;
+    color: white
+}
+
+th, td{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+#Contenedor1{
+    margin: 1em;
+    padding: 1.65em;
+}
+
+section{
+    margin-right: 0px;
+    margin-left: 0px;     
+}
